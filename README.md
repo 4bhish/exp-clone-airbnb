@@ -1,7 +1,7 @@
 # Airbnb experience clone App.
 
 ## About :
-- Detailes about airbn components and experience.
+- Detailes about airbnb components and experience.
 
 ## Tech used:
 - HTML5
