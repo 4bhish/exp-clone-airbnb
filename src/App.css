@@ -1,38 +1,105 @@
 .App {
   text-align: center;
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar
+{
+  
+  height:40px;
+  display: flex;
+  padding: 20px 36px;
+  max-width: 550px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Hero Comp*/
+.comp
+{
+  max-width: 550px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 25px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-heading
+{
+  text-align: left;
+}
+.hero--desc
+{
+  width: 300px;
+  text-align: left;
+
+}
+.hero--pics
+{
+  align-self: center;
+  padding-top: 30px;
+}
+/*List comps*/
+.card
+{
+  
+  width: 175px;
+  font-size: 12px;
+  text-align: left;
+  flex: 0 0 auto;       
+    display: flex;        
+    flex-direction: column;
+    position: relative;
+}
+.gray {
+  color: #918E9B;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.katie
+{
+  border-radius: 10px;
+  width: 176px;
+  height: 235px;
+  
+
+}
+.card--star
+{
+  height: 14px;
+  
+}
+.stats
+{
+  display: flex;
+  align-self: left;
+  padding: 5px;
+}
+
+.bold
+{
+  font-weight: 700;
+}
+.my--cards
+{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+  
+}
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.badge
+{
+  position: absolute;
+  top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
